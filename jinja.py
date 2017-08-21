@@ -28,7 +28,7 @@ for country_id in id:
 
 translate(list, month_tr)
 
-
+print(list)
 env = Environment(loader=FileSystemLoader(path), trim_blocks=True)
 render = env.get_template('template/templ.html').render(list)
 with open('frontend/index.html', 'w', encoding='utf-8') as output_file:
