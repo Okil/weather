@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Погода</title>
+	<meta charset="utf-8">
+</head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<body>
+
+<span class="clock"></span>
+<!-- <div class="my-bar">
+  <span class="bar">
+    <span class="myprogress"></span>
+  </span>
+</div> -->
+<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+	
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<aside class="andijan">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Андижан</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>21 Авг 2017, ПН</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +18</p>
+									<p>Влажность: 25%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:30 am<br>
+										<img src="img/icon/sunset.png">7:2 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+
+				<div class="item">
+			<aside class="bukhara">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Бухара</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>21 Авг 2017, ПН</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +21</p>
+									<p>Влажность: 15%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">6:0 am<br>
+										<img src="img/icon/sunset.png">7:30 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +36
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="djizakh">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Джизак</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>21 Авг 2017, ПН</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +18</p>
+									<p>Влажность: 24%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:46 am<br>
+										<img src="img/icon/sunset.png">7:17 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+29
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +30
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +31
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="karakalpakistan">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Каракалпакистан</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +19</p>
+									<p>Влажность: 15%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">6:15 am<br>
+										<img src="img/icon/sunset.png">7:53 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +23
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +31
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +22
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="qashqadaryo">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Кашкадарья</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +18</p>
+									<p>Влажность: 23%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:56 am<br>
+										<img src="img/icon/sunset.png">7:23 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +31
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +15
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +15
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +16
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="navoi">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Навои</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +20</p>
+									<p>Влажность: 13%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:56 am<br>
+										<img src="img/icon/sunset.png">7:26 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+31
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="namangan">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Наманган</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +20</p>
+									<p>Влажность: 25%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:30 am<br>
+										<img src="img/icon/sunset.png">7:3 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="samarqand">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Самарканд</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +17</p>
+									<p>Влажность: 15%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:50 am<br>
+										<img src="img/icon/sunset.png">7:19 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+31
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +16
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="termez">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Термез</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +22</p>
+									<p>Влажность: 10%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:53 am<br>
+										<img src="img/icon/sunset.png">7:15 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+36
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +36
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +22
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +22
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +36
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +37
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +22
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="sirdaryo">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Сырдарья</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +16</p>
+									<p>Влажность: 23%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">6:44 am<br>
+										<img src="img/icon/sunset.png">8:14 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="tashkentobl">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Ташкент обл.</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +18</p>
+									<p>Влажность: 25%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:38 am<br>
+										<img src="img/icon/sunset.png">7:12 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+31
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="fergana">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Фергана</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +17</p>
+									<p>Влажность: 25%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:30 am<br>
+										<img src="img/icon/sunset.png">7:1 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+31
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +20
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +19
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="horezm">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Хорезм</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +19</p>
+									<p>Влажность: 20%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">6:14 am<br>
+										<img src="img/icon/sunset.png">7:48 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+32
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +31
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +31
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +34
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +21
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+		<div class="item">
+			<aside class="tashkent">
+				<div class="shapeuz">
+					<center><img src="img/telecomtv.png"></center>
+				</div>
+				<div class="shape">
+					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Ташкент</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>22 Авг 2017, ВТ</p>
+				</div>
+				<div class="forecast">
+					<div class="col-lg-4 bordered">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="data" style="margin-bottom: 20px;">
+									<span>Сегодня</span>
+								</div>
+							</div>
+							<br>
+							<div class="col-lg-5">
+								<div class="currentInfo">
+									<p>Вечером: +18</p>
+									<p>Влажность: 28%</p>
+									<p class="sun">
+										<img src="img/icon/sunrise.png">5:38 am<br>
+										<img src="img/icon/sunset.png">7:13 pm
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<span class="currentTemp">
+									+31
+								</span>
+							</div>
+							<div class="col-lg-3">
+								<div class="icon noicon">
+									<img id="weathericon" src="img/icon/cloud-snow.png">
+								</div>
+							</div>
+						</div>
+					</div>	
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								22 Авг 2017, ВТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								23 Авг 2017, СР
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +33
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								24 Авг 2017, ЧТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +35
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +17
+							</span>
+						</div>
+					</div>
+										<div class="col-lg-2 bordered">
+						<div class="data">
+							<span>
+								25 Авг 2017, ПТ
+							</span>
+						</div>
+						<div class="icon"> 
+							<img id="weathericon" src="img/icon/suncloud.png">
+						</div>
+						<div class="temp">
+							<span class="hightemp">
+								<span class="glyphicon glyphicon-arrow-up"></span> +32
+							</span>
+							<span class="lowtemp">
+								<span class="glyphicon glyphicon-arrow-down"></span> +18
+							</span>
+						</div>
+					</div>
+									</div>
+			</aside>
+		</div>
+
+	</div>
+	
+</div>
+
+
+
+
+</body>
+<script type="text/javascript">
+	$('.carousel').carousel({
+	  interval: 7000,
+	  pause: null
+	});
+</script>
+
+</html>
