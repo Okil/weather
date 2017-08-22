@@ -18,12 +18,10 @@ list = {}
 for country_id in id:
     yweather = YahooWeather(id[country_id], UNIT_C)
     if yweather.updateWeather():
-
         forecast = yweather.Forecast, yweather.Atmosphere,yweather.Astronomy
         for item in yweather.Forecast:
             del item['text']
         list['{}'.format(country_id)] = forecast
-
     else:
         print('Не могу получить данные с сервера')
 
