@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 </head>
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/weather.css">
 <body>
 
 <span class="clock"></span>
@@ -19,7 +20,7 @@
 		<div class="item active">
 			<aside class="andijan">
 				<div class="shapeuz">
-					<center><img src="img/telecomtv.png"></center>
+					<center><img src="img/logo.png"></center>
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Андижан</p>
@@ -214,7 +215,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Каракалпакстан</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ karakalpakistan[0][1]['date'] }}, {{ karakalpakistan[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ karakalpakistan[0][0]['date'] }}, {{ karakalpakistan[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -277,7 +278,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Кашкадарья</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ qashqadaryo[0][1]['date'] }}, {{ qashqadaryo[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ qashqadaryo[0][0]['date'] }}, {{ qashqadaryo[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -340,7 +341,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Навои</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ navoi[0][1]['date'] }}, {{ navoi[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ navoi[0][0]['date'] }}, {{ navoi[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -403,7 +404,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Наманган</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ namangan[0][1]['date'] }}, {{ namangan[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ namangan[0][0]['date'] }}, {{ namangan[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -466,7 +467,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Самарканд</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ samarqand[0][1]['date'] }}, {{ samarqand[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ samarqand[0][0]['date'] }}, {{ samarqand[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -529,7 +530,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Термез</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ termez[0][1]['date'] }}, {{ termez[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ termez[0][0]['date'] }}, {{ termez[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -592,7 +593,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Сырдарья</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ sirdaryo[0][1]['date'] }}, {{ sirdaryo[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ sirdaryo[0][0]['date'] }}, {{ sirdaryo[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -655,7 +656,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Ташкент обл.</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ tashkentobl[0][1]['date'] }}, {{ tashkentobl[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ tashkentobl[0][0]['date'] }}, {{ tashkentobl[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -718,7 +719,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Фергана</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ fergana[0][1]['date'] }}, {{ fergana[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ fergana[0][0]['date'] }}, {{ fergana[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -781,7 +782,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Хорезм</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ horezm[0][1]['date'] }}, {{ horezm[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ horezm[0][0]['date'] }}, {{ horezm[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
@@ -844,7 +845,7 @@
 				</div>
 				<div class="shape">
 					<p class="country"><span class="glyphicon glyphicon-map-marker"></span>Ташкент</p>
-					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ tashkent[0][1]['date'] }}, {{ tashkent[0][1]['day'] }}</p>
+					<p class="country date"><span class="glyphicon glyphicon-calendar"></span>{{ tashkent[0][0]['date'] }}, {{ tashkent[0][0]['day'] }}</p>
 				</div>
 				<div class="forecast">
 					<div class="col-lg-4 bordered">
